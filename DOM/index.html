@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <center>
+    <h1 class="change" id="hello">Dom (Document Object Model)</h1>
+    <form>
+        <label class="change" for="name">Name:</label>
+        <input class="change" type="text" id="name" required><br><br>
+
+        <label class="change" for="email">Email:</label>
+        <input class="change" type="email" id="email" required><br><br>
+
+        <label class="change" for="message">Message:</label>
+        <textarea class="change" id="message" required></textarea><br><br>
+
+        <input class="change" type="button" value="Submit" onclick="showValues()">
+    </form>
+
+    <div class="change" id="output"></div>
+<button id="change color" onclick="clicked()">Click me</button>
+<br><br>
+<div id="main">
+
+<label for="input">Enter the string to be reversed: </label>
+<input id="input"><br>
+
+<p id="input-value">demo</p><br>
+
+<button id="reverse-click">Result</button><br>
+
+<h1>reversed value :</h1><br>
+
+<p id="reversed-value">demo</p><br>
+
+
+</div>
+    <script src="script.js"></script>
+
+</center>
+</body>
+
+</html>

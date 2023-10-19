@@ -21,14 +21,27 @@
 //callbacks 
 
 
-function mydisplay(som){
-    this.som = som
-    console.log(som)
+// function mydisplay(som){
+//     this.som = som
+//     console.log(som)
+// }
+
+// function cal(num1,num2, mycallback){
+//     let sum = num1+num2
+//     mycallback(sum)
+// }
+// cal(5,5, mydisplay)
+
+
+
+function sum(first, second, callback) {
+    console.log(`The sum of ${first} and ${second} 
+                is ${first + second}.`);
+    callback();
 }
 
-function cal(num1,num2, mycallback){
-    let sum = num1+num2
-    mycallback(sum)
+function disp() {
+    console.log('This must be printed after addition');
 }
-cal(5,5, mydisplay)
 
+sum(5, 6, disp);  
