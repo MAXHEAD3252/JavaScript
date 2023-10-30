@@ -11,8 +11,8 @@ http.createServer(function(req,res){
             return res.end("404 Not Found");
         }
             res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write(data);
-    return res.end("file readed...");
+            res.write(data);
+            return res.end("file readed...");
         
     })
 }).listen(3000);
