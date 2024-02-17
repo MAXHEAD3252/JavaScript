@@ -32,4 +32,4 @@
 // This is closure in action that is inner function can have access to the outer function variables as well as all 
 // the global variables. 
 
-//           conclusion a function which keeps the environment of it parent scope even after the parent function has been executed  
+// conclusion a function which keeps the environment of it parent scope even after the parent function has been executed  

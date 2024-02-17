@@ -10,9 +10,9 @@
 // asyncronous programming   - these are the actions which are initiated now but get executed later 
 //console.log("start"); // gets executed first 
 //setTimeout(function (){ 
-//    console.log("i am good");  // gets executed second in background 
+//    console.log("i am good");  // gets executed third in background 
 //},3000)
-//console.log("end"); // gets executed third 
+//console.log("end"); // gets executed second 
 
 
 // callback function  - callback function is a function which is passed in another function as an argument which is then 
