@@ -21,6 +21,8 @@ function fun() {
 	console.log('Hello World');
 }
 
+// hoisting means JavaScript's default behavior of moving all declarations to the top of the current scope
+// a variable can be used before it has been declared.
 
 // fun();  // this will give the error because hoisting is only used on declarations not on expressions
 
